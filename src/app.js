@@ -102,4 +102,5 @@ app.get('*', (req, res) => {
 app.listen(3000, () => {
 
     console.log("Server is up and running")
+    console.log("git is now tracking")
 });
