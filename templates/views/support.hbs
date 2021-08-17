@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>laidback anonymous-contact me !</title>
+  <link rel="stylesheet" href="/CSS/master.css">
+  <link rel="icon" type="image/ico" href="/image/favicon.ico">
+
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="header">
+      {{>header}}
+    </div>
+    <div id="body">
+      <h3>Drop your message below !</h3>
+      <form action="mailto:itiswhatis04@gmail.com" method="post" enctype="text/plain">
+        <label for="name">
+          <h4>Your Name:</h4>
+        </label>
+        <input id=name type="text" name="yourName" value=""><br><br>
+        <label for="email">
+          <h4>Your Email:</h4>
+        </label>
+        <input id="email" type="email" name="ypurEmail" value=""><br><br>
+        <label for="tarea">
+          <h4>Your message </h4>!
+        </label>
+        <textarea id="tarea" name="yourMessage" rows="10" cols="60"></textarea><br><br>
+        <input type="submit" name="" value="submit">
+      </form>
+      <br>
+    </div>
+    <div id="footer">{{>footer}}</div>
+  </div>
+</body>
+
+</html>

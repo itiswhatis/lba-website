@@ -1,0 +1,104 @@
+#container {
+  min-height:100%;
+  position:relative;
+}
+html,body {
+     margin:0;
+     padding:0;
+     height:100%;
+     overflow: hidden;
+     min-height: 100vh;
+     background-color: black;
+    
+  }
+  
+#header {
+    background-color: black;
+    padding:10px;
+    width:100%
+
+  }
+
+/* #body {
+
+  padding:10px;
+  width: 100%;
+  background-color: black;
+
+ } */
+
+footer {
+  
+  position: absolute;
+  height: 15px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+ background-color: rgb(20, 167, 32);
+ font-family: 'Ubuntu', sans-serif;
+ font-weight: 500;
+ font-size: large;
+ color: black;
+padding: 15px;
+bottom: 0;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #C2B8A3;
+    border-width: 7px;
+    width: 5%;
+  }
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+  }
+a {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+  }
+ 
+.below_link {
+    display: inline-block;
+    font-family:'Ubuntu', sans-serif;
+    color: white;
+
+  }
+
+  input,textarea{
+    border: 3px solid rgb(185, 224, 188);
+    padding: 8px;
+  }
+
+  button{
+    cursor: pointer;
+    border: 3px solid (185, 224, 188);
+    background-color: (185, 224, 188);
+    color: black;
+    padding:20px;
+
+  }

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/CSS/master.css">
+  <title>laidback anonymous-payment page</title>
+  <link rel="icon" type="image/ico" href="/image/favicon.ico">
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="header">
+      {{>header}}
+      <h1>Page for payment ! </h1>
+    </div>
+    <div id="body">
+      <h2>Please enter the recquired information below to complete the payment:</h2>
+      <form class="" action="" method="get">
+        <table>
+          <tr>
+            <td><label for="first">First Name:</label>
+              <input id="first" type="text" name="firstName" placeholder="first name">
+
+              <label for="last">Last Name:</label>
+              <input id="last" type="text" name="lastName" placeholder="last name">
+            </td>
+            <td><label for="email">Email:</label>
+              <input id="email" type="email" name="" placeholder="email">
+              <label for="pwd">Password:</label>
+              <input id="pwd" type="password" name="" placeholder="password">
+            </td>
+          </tr>
+        </table>
+        <br>
+        <br>
+        <p>Are you over 18 ?</p>
+        <label for="yes">yes</label>
+        <input id="yes" type="radio" name="overEighteen" value="yup">
+        <label for="no">no</label>
+        <input id="no" type="radio" name="overEighteen" value="nope">
+        <br>
+        <br>
+        <p>Pay:</p>
+        <select name="paymentMode">
+          <option value="cc">Credit Card</option>
+          <option value="dc">Debit Card</option>
+          <option value="upi">UPI</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" name="submitPayment" value="pay">
+      </form>
+      <br>
+    </div>
+    <div id="footer">{{>footer}}</div>
+  </div>
+</body>
+
+</html>
