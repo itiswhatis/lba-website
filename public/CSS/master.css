@@ -96,8 +96,8 @@ ul {
 
   button{
     cursor: pointer;
-    border: 3px solid (185, 224, 188);
-    background-color: (185, 224, 188);
+    border: 3px solid rgb(185, 224, 188);
+    background-color: rgb(185, 224, 188);
     color: black;
     padding:20px;
 
