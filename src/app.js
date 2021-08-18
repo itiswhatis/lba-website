@@ -23,7 +23,7 @@ app.get('', (req, res) => {
 
     res.render('index.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
 
     });
 });
@@ -32,7 +32,7 @@ app.get('/artwork', (req, res) => {
 
     res.render('artwork.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
@@ -40,7 +40,7 @@ app.get('/nothing', (req, res) => {
 
     res.render('nothing.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
 
     });
 });
@@ -48,35 +48,35 @@ app.get('/payment', (req, res) => {
 
     res.render('payment.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
 app.get('/photography', (req, res) => {
     res.render('photography.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
 app.get('/poetries', (req, res) => {
     res.render('poetries.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
 app.get('/support', (req, res) => {
     res.render('support.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
 app.get('/writings', (req, res) => {
     res.render('writings.hbs', {
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
@@ -96,7 +96,7 @@ app.get('*', (req, res) => {
         errorCode: 404,
         errorMessage: "For Some Reason The Page You Requested Could Not Be Found On Our Server",
         title: "LAIDBACK ANONYMOUS",
-        webDeveloper: "Laidback Anonymous Comunity"
+        webDeveloper: "Laidback Anonymous Community"
     });
 });
 
